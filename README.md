@@ -30,3 +30,8 @@ npm install
 cp .env.example .env.local   # then fill in the values
 npm run dev                  # open http://localhost:3000
 ```
+
+## Deploying
+
+The project is connected to Vercel. Every push to the production branch
+publishes a new version automatically.
